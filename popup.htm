@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- This popup window runs in the content process to obtain bookmark details from user -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<script src="content.js"></script>
+<style>
+  body {text-align: center;}
+  input {margin-bottom: 1.5em; margin-top: .25em; width: 20em;}
+  h1 {font-size: 120%;}
+  button {padding: .25em 3em; font-weight: bold;}
+</style>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Add Bookmark Here</title>
+</head>
+
+<body>
+<h1>Add Bookmark Here</h1>
+<form>
+  <span id="createFolder">Create new folder for bookmark(s)?</span><br />
+  <input type="text" id="foldername" name="foldername" autofocus  minlength="1" maxlength="30" placeholder="[Folder Name]" /><br />
+  <span id="editTitle">Edit Bookmark title?</span><br />
+  <input type="text" id="bookmarktitle" name="bookmarktitle" 
+   maxlength="500" /><br /><br />
+  <button type="submit" id="ok">Add Bookmark(s)</button><br /><br />
+  <i id="cancelNotice" style="font-size:75%;">[To cancel bookmarking, close this window]</i>
+</form> 
+</body>
+</html>

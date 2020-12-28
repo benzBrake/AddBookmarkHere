@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "Add Bookmark Here",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Adds context menu item 'Bookmark Tab Here' to Bookmarks Menus as an alternative bookmarking method.",
+    "description": "Description of the add-on."
+  },
+  "BTH_menuitemText": {
+    "message": "Add Bookmark(s) &Here",
+    "description": "Title of BTH context menu item."
+  },
+  "addBookmarkTitle": {
+    "message": "Add Bookmark(s)"
+  },
+  "createFolder": {
+    "message": "Create new folder for bookmark(s)?"
+  },
+  "foldername": {
+    "message": "[Folder Name]"
+  },
+  "editTitle": {
+    "message": "Edit Bookmark title?"
+  },
+  "cancelNotice": {
+    "message": "[To cancel bookmarking, close this window]"
+  },
+  "ok": {
+    "message": "OK"
+  },
+  "BTHLG1": {
+    "message": "When Accessing via a <b>Bookmark Folder's</b> Context Menu"
+  },
+  "BTHfolderTop": {
+    "message": "Insert Bookmark at Top of Menu"
+  },
+  "BTHfolderBottom": {
+    "message": "Insert Bookmark at Bottom of Menu"
+  },
+  "BTH_allTabs": {
+    "message": "'Shift-Click' Bookmarks All Tabs in Current Window"
+  },
+  "BTHLG2": {
+    "message": "Show Editor Window when clicking 'Add Bookmark(s) Here'"
+  },
+  "BTHctrl": {
+    "message": "On Ctrl-click"
+  },
+  "BTHall": {
+    "message": "Always"
+  }
+}

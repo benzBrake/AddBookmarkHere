@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <form>
+  <fieldset>
+    <legend id="BTHLG1">When Accessing via a <b>Bookmark Folder's</b> Context Menu</legend>
+    <input type="radio" id="BTHfolderTop" name="BTH_atFolder" value="top">
+    <label for="BTHfolderTop">Insert Bookmark at Top of Menu</label><br/>
+    <input type="radio" id="BTHfolderBottom" name="BTH_atFolder" value="bottom">
+    <label for="BTHfolderBottom">Insert Bookmark at Bottom of Menu</label><br/><br/>
+    
+    <input type="checkbox" id="BTH_allTabs" name="BTH_bookmarkAllTabs">
+    <label for="BTH_allTabs">'Shift-Click' Bookmarks All Tabs in Current Window</label><br/> 
+  </fieldset><br />
+  
+  <fieldset>  
+    <legend id="BTHLG2">Show Editor Window when clicking 'Bookmark Tab(s) Here'</legend>
+    <input type="radio" id="BTHctrl" name="BTH_UI" value="ctrl">
+    <label for="BTHctrl">On Ctrl-click</label><br/>    
+    <input type="radio" id="BTHall" name="BTH_UI" value="all">
+    <label for="BTHall">Always</label><br/>
+  </fieldset>  
+  </form>
+  <script src="options.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "添加书签到此处",
+    "description": "Name of the the add-on."
+  },
+
+  "extensionDescription": {
+    "message": "添加菜单“添加书签到此处”到“书签菜单”中。",
+    "description": "Description of the add-on."
+  },
+  "BTH_menuitemText": {
+    "message": "添加书签到此处(&H)",
+    "description": "Title of BTH context menu item."
+  },
+  "addBookmarkTitle": {
+    "message": "添加书签"
+  },
+  "createFolder": {
+    "message": "创建新文件夹？"
+  },
+  "foldername": {
+    "message": "[文件夹名称]"
+  },
+  "editTitle": {
+    "message": "书签名称？"
+  },
+  "cancelNotice": {
+    "message": "「如果想取消收藏，请直接关闭此窗口」"
+  },
+  "ok": {
+    "message": "确定"
+  },
+  "BTHLG1": {
+    "message": "点击文件夹右键菜单 <b>添加书签到此处</b> 时书签的存放位置"
+  },
+  "BTHfolderTop": {
+    "message": "在文件夹顶部部插入书签"
+  },
+  "BTHfolderBottom": {
+    "message": "在文件夹底部插入书签"
+  },
+  "BTH_allTabs": {
+    "message": "点击 <b>添加书签到此处</b> 时按下 'Shift' 键收藏当前窗口所有标签"
+  },
+  "BTHLG2": {
+    "message": "点击 '添加书签到此处' 显示添加书签弹出窗口"
+  },
+  "BTHctrl": {
+    "message": "当按下 Ctrl 键"
+  },
+  "BTHall": {
+    "message": "总是"
+  }
+}
